@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"name": "workspace-config",
+			"path": ".config"
+		},
+		{
+			"path": "git"
+		},
+		{
+			"path": "git_test"
+		},
+		{
+			"path": "version"
+		}
+	],
+	"settings": {
+		"go.formatTool": "goimports",
+		"go.useLanguageServer": true,
+		"go.lintTool": "staticcheck",
+		"go.lintFlags": [],
+		"go.testFlags": [
+			"-v"
+		],
+		"gopls": {
+			"ui.diagnostic.staticcheck": true
+		},
+		"go.toolsManagement.autoUpdate": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"go.toolsEnvVars": {
+			"GOPRIVATE": "github.com/*"
+		}
+	}
+}

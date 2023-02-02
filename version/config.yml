@@ -1,0 +1,12 @@
+bumpStrings:
+  major:
+    - j
+    - major
+  minor:
+    - n
+    - minor
+  patch:
+    - p
+    - patch
+
+versionSeparator: +
